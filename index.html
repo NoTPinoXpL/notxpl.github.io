@@ -24,7 +24,33 @@
         <div class="link">
             <a href="https://www.instagram.com/amznf_/" target="_blank" class="animate__animated animate__bounceInLeft" >Instagram</a>
             <a href="https://github.com/NoTPinoXpL" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s" >Github</a>
-            <a href="" target="_blank" onclick="alert('Website masih tahap pengembangan'); return false;" class="animate__animated animate__bounceInLeft animate__delay-2s">Form Whatsapp</a>
+            <a id="whatsapp-link" href="#" class="animate__animated animate__bounceInLeft animate__delay-2s">Form Whatsapp</a>
+        </div>
+        <!-- WhatsApp Form -->
+        <div id="whatsapp-form" class="whatsapp-form animate__animated animate__fadeIn">
+            <h2>Contact via WhatsApp</h2>
+            <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4" onsubmit="sendMessageToWhatsapp(event)">
+                <input
+                    type="text"
+                    class="w-full rounded-lg border border-gray-300 p-4 pe-12 text-sm shadow-sm"
+                    placeholder="Masukan nama anda"
+                    id="nama"
+                    required
+                />
+                <input
+                    type="text"
+                    class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    placeholder="Ketik pesan anda"
+                    id="pesan"
+                    required
+                />
+                <button
+                    type="submit"
+                    class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white w-full"
+                >
+                    Kirim Pesan
+                </button>
+            </form>
         </div>
         <!-- footer -->
         <div class="footer">
@@ -34,5 +60,6 @@
     <audio hidden autoplay loop>
         <source src="https://od.lk/s/NV8xOTU0MjQ4OTFf/Naruto%20Shippuden%20Soundtrack%2019-%20Despair%20%5BExtended%5D%20%28256%29.mp3" type="audio/mpeg">
       </audio>
+    <script src="main.js"></script>
 </body>
 </html>
