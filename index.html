@@ -8,28 +8,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jaro:opsz@6..72&family=Sedan+SC&family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jaro:opsz@6..72&family=Sedan+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="https://4.bp.blogspot.com/-gyXTeoYfZYU/WLGzd5IbNEI/AAAAAAAAAgI/7yE1wnuMN4ssfET4BA4GIq18k6xTETuEQCLcB/s1600/logo%2B3.png">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>ClickBait</title>
 </head>
 <div class="rain"></div>
 <body>
+    <nav id="navbar" class="navibar">
+        <a href="javascript:void(0);" onclick="showSection('home')" class="active">Home</a>
+        <a href="javascript:void(0);" onclick="alert('Website masih tahap pengembangan')">About</a>
+        <a href="javascript:void(0);" onclick="showSection('link')">Linktree</a>
+        <a href="khodam.html" target="_blank">Cek Khodam</a>
+        <a href="javascript:void(0);" class="icon" onclick="showMobileNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
     <div class='snow-flakes'> <div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div></div>
-    <div class="container ">
+    <div class="container">
         <!-- profile picture -->
-        <div class="profile">
-            <img src="avatar.jpg" alt="Eror Image" />
-            <p>./NoTXpL</p>
+        <div id="home" class="section">
+        <div class="home">
+            <p>Welcome To My Website</p>
+         </div>
+        </div>
+        <!-- About -->
+        <div id="about" class="section" style="display: none;">
+            <div class="about">
+            <i>Hello World</i>
+            <p>Let me introduce myself, my name is Achmad Muzakki Annafiysi</br>Saya adalah mahasiswa aktif di Universitas Negeri Surabaya
+            </br>
+            </p>
+         </div>
         </div>
         <!-- linktree button -->
+        <div id="link" class="section" style="display: none;">
         <div class="link">
-            <a href="https://www.instagram.com/amznf_/" target="_blank" class="animate__animated animate__bounceInLeft" >Instagram</a>
-            <a href="https://github.com/NoTPinoXpL" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s" >Github</a>
-            <a id="whatsapp-link" href="#" class="animate__animated animate__bounceInLeft animate__delay-2s">Form Whatsapp</a>
+            <div class="profile">
+                <img src="avatar.jpg" alt="Eror Image" />
+                <p>./NoTXpL</p>
+             </div>
+            <a href="https://www.instagram.com/amznf_/" target="_blank" class="animate__animated animate__bounceInLeft" ><i class="fa-brands fa-instagram"></i> Instagram </a>
+            <a href="https://github.com/NoTPinoXpL" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s" ><i class="fa-brands fa-github"></i> Github</a>
+            <a id="whatsapp-link" href="#whatsapp" class="animate__animated animate__bounceInLeft animate__delay-2s"><i class="fa-brands fa-whatsapp"></i> Form Whatsapp</a>
+         </div>
         </div>
         <!-- WhatsApp Form -->
         <div id="whatsapp-form" class="whatsapp-form animate__animated animate__fadeIn">
             <h2>Contact via WhatsApp</h2>
-            <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4" onsubmit="sendMessageToWhatsapp(event)">
+            <form action="#whatsapp" class="mx-auto mb-0 mt-8 max-w-md space-y-4" onsubmit="sendMessageToWhatsapp(event)">
                 <input
                     type="text"
                     class="w-full rounded-lg border border-gray-300 p-4 pe-12 text-sm shadow-sm"
@@ -54,7 +81,7 @@
         </div>
         <!-- footer -->
         <div class="footer">
-            <i>Copyright By ./NoTXploit ☠️​</i>
+        <marquee behavior="left"><i>©️Copyright By ./NoTXploit ☠️ Since 2K17​</i></marquee>
         </div>
     </div>
     <audio hidden autoplay loop>
