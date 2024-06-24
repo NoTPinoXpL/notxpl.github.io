@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jaro:opsz@6..72&family=Sedan+SC&family=VT323&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Jaro:opsz@6..72&family=Sedan+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" href="https://4.bp.blogspot.com/-gyXTeoYfZYU/WLGzd5IbNEI/AAAAAAAAAgI/7yE1wnuMN4ssfET4BA4GIq18k6xTETuEQCLcB/s1600/logo%2B3.png">
     <link rel="stylesheet" href="style.css"/>
@@ -17,7 +13,7 @@
 <body>
     <nav id="navbar" class="navibar">
         <a href="javascript:void(0);" onclick="showSection('home')" class="active">Home</a>
-        <a href="javascript:void(0);" onclick="alert('Website masih tahap pengembangan')">About</a>
+        <a href="javascript:void(0);" onclick="showSection('about')">About</a>
         <a href="javascript:void(0);" onclick="showSection('link')">Linktree</a>
         <a href="khodam.html" target="_blank">Cek Khodam</a>
         <a href="javascript:void(0);" class="icon" onclick="showMobileNav()">
@@ -30,28 +26,35 @@
         <div id="home" class="section">
         <div class="home">
             <p>Welcome To My Website</p>
+            <h1>Website masih tahap pengembangan</h1>
          </div>
         </div>
         <!-- About -->
         <div id="about" class="section" style="display: none;">
-            <div class="about">
+            <div class="about">    
             <i>Hello World</i>
-            <p>Let me introduce myself, my name is Achmad Muzakki Annafiysi</br>Saya adalah mahasiswa aktif di Universitas Negeri Surabaya
-            </br>
-            </p>
+            <h1>Perkenalkan nama saya adalah Achmad Muzakki Annnafiysi.<br>
+                Saya berasal dari kota Kediri, Saya adalah mahasiswa aktif di Universitas Negeri Surabaya
+                <br>Jurusan Teknik Informatika, Prodi S1 Teknik Informatika, Fakultas Teknik.
+            </h1>
+
+            <h2>Saya sangat suka menonton film dengan genre action,<br>seperti Avengers: Endgame (2019),
+                John Wick: Chapter 3 – Parabellum (2019), Headshot (2016), dll.<br>
+                Mungkin cukup itu saja hehehe :v
+            </h2>
          </div>
         </div>
         <!-- linktree button -->
         <div id="link" class="section" style="display: none;">
-        <div class="link">
+         <section>
             <div class="profile">
                 <img src="avatar.jpg" alt="Eror Image" />
                 <p>./NoTXpL</p>
-             </div>
-            <a href="https://www.instagram.com/amznf_/" target="_blank" class="animate__animated animate__bounceInLeft" ><i class="fa-brands fa-instagram"></i> Instagram </a>
-            <a href="https://github.com/NoTPinoXpL" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s" ><i class="fa-brands fa-github"></i> Github</a>
-            <a id="whatsapp-link" href="#whatsapp" class="animate__animated animate__bounceInLeft animate__delay-2s"><i class="fa-brands fa-whatsapp"></i> Form Whatsapp</a>
-         </div>
+             </div>  
+             <a href="https://www.instagram.com/amznf_/" target="_blank" class="animate__animated animate__bounceInLeft" ><i class="fa-brands fa-instagram"></i> Instagram </a>
+             <a href="https://github.com/NoTPinoXpL" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-1s" ><i class="fa-brands fa-github"></i> Github</a>
+             <a id="whatsapp-link" href="#whatsapp" class="animate__animated animate__bounceInLeft animate__delay-2s"><i class="fa-brands fa-whatsapp"></i> Form Whatsapp</a>
+         </section>
         </div>
         <!-- WhatsApp Form -->
         <div id="whatsapp-form" class="whatsapp-form animate__animated animate__fadeIn">
